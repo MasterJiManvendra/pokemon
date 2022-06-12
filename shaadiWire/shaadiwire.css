@@ -1,0 +1,96 @@
+body{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    /* position: sticky;
+    top: 0; */
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.dropdown{
+    font-weight: bold ;
+    
+}
+.person{
+    background-color: black;
+}
+.signup{
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+}
+.mainImage{
+    margin-left: 12px;
+   
+}
+#ul1 li {
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 0 12px;
+}
+.container-1{
+    margin: 10;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.container-3 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align-last: center;
+}
+.container-3 h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align-last: center;
+}
+.container-3 form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+   
+}
+.container-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin: 0 10px;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 10px;
+}
+.container-4 div{
+    margin: 4px;
+    text-align: center;
+}
+.container-4 div img{
+    width: 60px;
+    align-self: center;
+    margin-top: 8px;
+}
+.container-5{
+    margin-top: 1px;
+}
+.container-7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.container-7 div img{
+border: none;
+border-radius: 50%;
+width: 70%;
+}
+.container-7 div{
+    align-items: center;
+    text-align: center;
+    }
+
